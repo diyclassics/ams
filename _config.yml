@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Patrick J. Burns"
+title: "Ancient MakerSpaces"
+description: "Landing page for Ancient MakerSpaces at SCS 2017"
+keywords: "digital classics"
 favicon: "/img/favicon.ico"
 
 ################
@@ -102,7 +102,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+# disqus-shortname: "panossakkos"
 
 syntax-highlight: True
 
