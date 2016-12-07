@@ -10,6 +10,14 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+:target:before {
+content:"";
+display:block;
+height:90px; /* fixed header height*/
+margin:-66px 0 0; /* negative fixed header height */
+}
+
+
 body {
     width: 100%;
     height: 100%;
@@ -86,6 +94,27 @@ p {
     margin-bottom: 25px;
 }
 
+
+#timeline a {
+    color: #fff;
+    
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+    
+    @media(min-width:768px) {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+#timeline>li {
+    position: relative;
+    margin-bottom: 25px;
+    min-height: 25px;
+}
+
 #timeline p {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 80%;
@@ -93,6 +122,29 @@ p {
 
 .timeline-heading h4 {
     margin-bottom: 5px;
+}
+
+#lineup p {
+
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+.lineup-date {
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.lineup-title {
+    margin-bottom: 5px;
+    font-size: 125%;
+    font-style: italic;
+}
+
+.lineup-desc {
+    margin-bottom: 15px;
+    font-size: 85%;
 }
 
 #contact p {
@@ -491,3 +543,4 @@ body {
 .fourofour {
   border: 1px solid $primary-color !important;
 }
+
