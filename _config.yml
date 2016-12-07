@@ -34,7 +34,7 @@ author: "Patrick J. Burns"
 title: "AMS Landing Page | SCS 2017"
 description: "Official landing page for Ancient MakerSpaces: Digital Tools for Classics Scholarship, a workshop featured at the 2017 Annual Meeting of the Society for Classical Studies"
 keywords: "digital humanities"
-#favicon: "/img/favicon.ico"
+favicon: "/img/favicon.ico"
 
 ################
 # Header layout #
@@ -157,7 +157,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "patrick@diyclassics.org"
+email: "patrick.j.burns@nyu.edu"
 
 ################
 # Author Blurb #
