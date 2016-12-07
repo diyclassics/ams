@@ -49,17 +49,17 @@ background-img: "../img/intro-bg.png"
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+shuffle: False # Shuffle the lines.
 loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
+loop-count: 1 # Set False for infinite loop, or set any number for finite loop.
 type-speed: 5
 start-delay: 200
-delete-delay: 4000
+delete-delay: 3000
 lines: # You can add HTML Tags in the Text
-  - text: "Ancient MakerSpaces"
-  - text: "Digital Tools for Classics Scholarship"
+#  - text: "Ancient MakerSpaces"
+  - text: "Digital Tools for Classical Scholarship"
 
-me-img: "/img/jetpacktocat.png"
+#me-img: "/img/jetpacktocat.png"
 
 ##############################
 # Color the browser elements #
