@@ -59,7 +59,7 @@ lines: # You can add HTML Tags in the Text
 #  - text: "Ancient MakerSpaces"
   - text: "Digital Tools for Classical Scholarship"
 
-#me-img: "/img/jetpacktocat.png"
+me-img: "/img/timeline/workshop.png"
 
 ##############################
 # Color the browser elements #
