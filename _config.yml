@@ -112,12 +112,33 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/paper.png"
+    date: "8:30-9:00am"
+    description: "Paper: T. Beasley 'Visualizing Networks in the Ancient Mediterranean'"
+  - image: "/img/timeline/workshop.png"
+    date: "9:10-9:50am"
+    description: "Workshop: R. Ast 'Digital Corpus of Literary Papyri'"
+  - image: "/img/timeline/workshop.png"
+    date: "9:55-10:45am"
+    description: "Workshop: R. Benefiel 'Ancient Graffiti Project'"
+  - image: "/img/timeline/workshop.png"
+    date: "10:50-11:35am"
+    description: "Workshop: S. Heath 'Make Your Own 3D Models'"
+  - image: "/img/timeline/workshop.png"
+    date: "11:40-12:25am"
+    description: "Workshop: R. Horne 'Make Your Own Map'"
+  - image: "/img/timeline/paper.png"
+    date: "12:30-1:00pm"
+    description: "Paper: P. Chaudhuri & J. Dexter 'Phylogenetic profiling and the reception of classical drama'"
+  - image: "/img/timeline/workshop.png"
+    date: "1:10-1:55pm"
+    description: "Workshop: J. Gawley 'Intertext Mining With Tesserae'"
+  - image: "/img/timeline/workshop.png"
+    date: "2:00-2:45pm"
+    description: "Workshop: B. Almas 'Perseids: Infrastructure for Research and Collaboration'"
+  - image: "/img/timeline/panel.png"
+    date: "3:00-4:00pm"
+    description: "Panel: 'State of Digital Classics'"
 
 # First image of the Timeline
 
@@ -150,7 +171,7 @@ social:
   - title: "twitter"
     url: "https://twitter.com/diyclassics"
   - title: "github"
-    url: "https://github.com/https://diyclassics.github.io/ams/"
+    url: "https://diyclassics.github.io/ams/"
   - title: "rss"
     url: "/feed.xml"
 
@@ -165,8 +186,8 @@ social:
 ##################
 
 keybase-username: 
-keybase-in-social: True
-keybase-in-footer: True
+#keybase-in-social: True
+#keybase-in-footer: True
 
 ################################################################################
 
@@ -178,7 +199,7 @@ pages_list:
   About: 'about'
   #Blog: 'latest-post'
   Schedule: 'timeline'
-  Schedule: 'schedule'
+  #Schedule: 'schedule'
   #Timeline: 'timeline'
   Contact: 'contact'
 

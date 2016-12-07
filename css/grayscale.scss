@@ -58,6 +58,40 @@ p {
     }
 }
 
+#about p {
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+#about p.title {
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+#about p.subtitle{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#about p.desc{
+    margin-bottom: 25px;
+}
+
+#timeline p {
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 80%;
+}
+
+.timeline-heading h4 {
+    margin-bottom: 5px;
+}
+
+
 div {
   -webkit-user-select: text;
   -moz-user-select: text;
@@ -163,7 +197,7 @@ a {
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
+    background: url({{ site.background-img }}) repeat fixed;
     {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;
@@ -330,6 +364,7 @@ footer {
     text-align: center;
     p {
         margin: 0;
+        font-size: 12px;
     }
 }
 

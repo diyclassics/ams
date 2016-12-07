@@ -20,8 +20,8 @@
 
 .timeline>li {
     position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
+    margin-bottom: 25px;
+    min-height: 25px;
 }
 
 .timeline>li:before,
@@ -60,9 +60,9 @@
     z-index: 100;
     position: absolute;
     left: 0;
-    width: 80px;
-    height: 80px;
-    margin-left: 0;
+    width: 64px;
+    height: 64px;
+    margin-left: 9px;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
@@ -73,8 +73,8 @@
 .img-me {
     z-index: 100;
     left: 0;
-    width: 100px;
-    height: 100px;
+    width: 64px;
+    height: 64px;
     margin-left: 0;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
@@ -139,8 +139,8 @@
     }
 
     .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
+        margin-bottom: 25px;
+        min-height: 25px;
     }
 
     .timeline>li .timeline-panel {
@@ -152,15 +152,15 @@
 
     .timeline>li .timeline-image {
         left: 50%;
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
+        width: 64px;
+        height: 64px;
+        margin-left: -32px;
     }
 
     .img-me {
         left: 50%;
-        width: 150px;
-        height: 150px;
+        width: 64px;
+        height: 64px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -182,9 +182,11 @@
     }
 }
 
+
+
 @media(min-width:992px) {
     .timeline>li {
-        min-height: 150px;
+        min-height: 64px;
     }
 
     .timeline>li .timeline-panel {
@@ -192,14 +194,14 @@
     }
 
     .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
+        width: 64px;
+        height: 64px;
+        margin-left: -32px;
     }
 
     .img-me {
-        width: 200px;
-        height: 200px;
+        width: 64px;
+        height: 64px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -229,14 +231,14 @@
     }
 
     .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px;
+        width: 64px;
+        height: 64px;
+        margin-left: -32px;
     }
 
     .timeline>li .img-me {
-        width: 200px;
-        height: 200px;
+        width: 64px;
+        height: 64px;
     }
 
     .timeline>li .timeline-image h4 {
