@@ -144,12 +144,31 @@ footer p.hashtag {
     font-size: 85%;
 }
 
+#images {
+    text-align:center;
+    margin:50px auto;
+}
+
+#images a {
+    margin:0px 20px;
+    display:inline-block;
+    color:black;
+
+}
+
+div.caption {
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: $secondary-color;
+}
+
 #contact p {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-size: 18px;
     text-align: center; 
 }
+
+
 
 div {
   -webkit-user-select: text;
