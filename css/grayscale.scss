@@ -114,7 +114,6 @@ footer p.hashtag {
 }
 
 #lineup p {
-
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     text-align: left;
@@ -126,9 +125,18 @@ footer p.hashtag {
 }
 
 .lineup-title {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     font-size: 125%;
     font-style: italic;
+}
+
+.lineup-type {
+    font-style: normal;
+}
+
+.lineup-presenter {
+    margin-bottom: 12px;
+    font-size: 100%;
 }
 
 .lineup-desc {
