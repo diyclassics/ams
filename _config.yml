@@ -175,8 +175,8 @@ email: "patrick.j.burns@nyu.edu"
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
+#  - title: "facebook"
+#    url: "https://facebook.com/"
   - title: "twitter"
     url: "https://twitter.com/diyclassics"
   - title: "github"
