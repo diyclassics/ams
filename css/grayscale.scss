@@ -273,7 +273,7 @@ a {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: $intro-text-color;
+    color: $secondary-color;
     {% if site.background-img %}
     background: url({{ site.background-img }}) repeat fixed;
     {% endif %}
@@ -290,6 +290,7 @@ a {
             margin-bottom: 5px;
         }
         .intro-text {
+            color: $secondary-color;
             font-size: 18px;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;

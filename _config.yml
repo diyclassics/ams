@@ -51,14 +51,14 @@ background-img: "../img/intro-bg.png"
 dynamic-typing: True
 shuffle: False # Shuffle the lines.
 loop: True
-loop-count: 1 # Set False for infinite loop, or set any number for finite loop.
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 5
-start-delay: 200
-delete-delay: 3000
+start-delay: 500
+delete-delay: 10000
 lines: # You can add HTML Tags in the Text
 #  - text: "Ancient MakerSpaces"
   - text: "Digital Tools for Classical Scholarship"
-
+  - text: "All-Day Workshop at SCS 2017"
 me-img: "/img/timeline/workshop.png"
 
 ##############################
