@@ -92,6 +92,7 @@ p {
 }
 
 #about p.callout {
+    margin-top: 5px;
     color: $secondary-color;
     font-size: 110%;
     text-align: center;
@@ -103,6 +104,10 @@ p {
     font-style: italic;
 }
 
+#about ul {
+text-align: left;
+    
+}
 footer p.hashtag {
     margin-top: 20px;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
