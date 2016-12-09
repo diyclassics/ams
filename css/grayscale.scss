@@ -91,6 +91,12 @@ p {
     font-weight: 200;
 }
 
+#about p.callout {
+    color: $secondary-color;
+    font-size: 110%;
+    text-align: center;
+}
+
 #about p.desc{
     margin: 25px;
     font-size: 110%;
